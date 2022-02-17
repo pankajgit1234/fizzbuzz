@@ -20,14 +20,16 @@ end point :- http://localhost:8085/api/v1/games/fizzbuzz/<number>
   number should be a positive integer.
 Response :- 
   Game Completed
+  
   It will print on console as per below example till the provided number as provided in api endpoint. 
+  
     1, 2, Fizz, 4, Buzz, Fizz, 7, 8, Fizz, Buzz, 11, Fizz, 13, 14, Fizz Buzz, 16, 17, Fizz, 19, Buzz, Fizz, 22, 23, Fizz, Buzz, 26, Fizz, 28, 29, Fizz Buzz, 31, 32, Fizz, 34, Buzz, Fizz, ...
   
 **How to run in a docker container:-**
  command to create docker image
-      docker build -f Dockerfile -t docker-fizz-buzz .
+     ** docker build -f Dockerfile -t docker-fizz-buzz .**
   command to run docker image
-     docker run -p 8085:8085 docker-fizz-buzz
+     **docker run -p 8085:8085 docker-fizz-buzz**
      
   
   
