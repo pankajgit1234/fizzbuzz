@@ -17,7 +17,7 @@ Ideas/methods to use (all items are optional and might not be applicable at all)
 
 **API details:-**
 end point :- http://localhost:8085/api/v1/games/fizzbuzz/<number>
-  number should be a positive integer.
+  number should be a positive integer.ie. 100
 Response :- 
   Game Completed
   
